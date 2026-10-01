@@ -10,7 +10,7 @@ metadata:
 spec:
   containers:
     - name: catalogue
-      image: catalogue:1.0.0
+      image: niteeshgandham/catalogue:1.0.0
       ports:
         - containerPort: 8080
       env:
