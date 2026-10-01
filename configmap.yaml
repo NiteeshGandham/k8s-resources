@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PodConfigMap
+metadata:
+  name: frontend-config
+  namespace: roboshop
+data:
+  APP_NAME: frontend
+  APP_ENV: dev
+
+
+
+
+
+    
